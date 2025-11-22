@@ -1,0 +1,10 @@
+Run this program on your Pi using:
+    ./clockdisplay
+
+Then enter a series of lines of the form hh:mm:ss (hours,
+minutes, seconds) to see them each displayed
+successively. Press "^D" (control-D) to exit the program
+(or enter an invalid time value like "a").
+
+Note: You can also use, for example, "echo 11:12:17 | ./clock"
+to see a single time.

@@ -1,0 +1,4 @@
+Use "make joystick" to build the program.
+
+When running, push the joystick, and the dot will follow. Push the joystick
+"in" to end the program.

@@ -1,0 +1,10 @@
+Compile this using
+cc -o sigma sigma.c -L ~/lib -I ~/include -lsense
+
+To compile and view on cisc210, add the flag '-lncurses' to the above.
+
+Meanings of the flags:
+-L ~/lib : Look for libraries in ~/lib (i.e., in the "lib" directory under my home)
+-I ~/include : Look for extra header files in ~/include (i.e., the "include" directory in my home)
+-lsense : link with the file libsense.a (you created this when you installed the sense library)
+-lncurses : link also with "libcurses" (the "terminal graphics" library) from the standard library location

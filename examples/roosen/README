@@ -1,0 +1,12 @@
+This is an example of the way your "monogram" program
+should work. 
+
+To run the program. enter
+	./roosen
+
+Note that it is usually not desirable to include 
+"binary" files in git repositories, only text files.
+
+Note: if your Pi just keeps showing a scrolling IP#, you need to turn off
+the program that shows the IP. To do that, press "down" on the joystick
+(towards the USB ports) three times.

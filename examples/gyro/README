@@ -1,0 +1,5 @@
+accel.c prints the averaged force once/second. This would be suitable for recognizing
+which way is down, since it will be mostly a "gravity detector".
+
+bump.c prints the change in force when it's big enough (magnitude > 1). Suitable for a
+"bump detector" (or maybe a seismometer). 

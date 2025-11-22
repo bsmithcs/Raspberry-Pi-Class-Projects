@@ -1,0 +1,7 @@
+Compile this using
+cc -o clearhat clearhat.c -L ~/lib -I ~/include -lsense
+
+Meanings of the flags:
+-L ~/lib : Look for libraries in ~/lib (i.e., in the "lib" directory under my home)
+-I ~/include : Look for extra header files in ~/include (i.e., the "include" directory in my home)
+-lsense : link with the file libsense.a (you created this when you installed the sense library)
